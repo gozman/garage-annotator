@@ -1,0 +1,86 @@
+.annotation-form {
+  padding: 20px;
+  border: 1px solid #ccc;
+  margin: 20px 0;
+}
+
+.centered {
+  text-align: center;
+}
+
+.columns {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px; /* Add some space between sections */
+}
+
+.left-column, .right-column {
+  width: 48%; /* Adjust width as needed */
+  display: flex;
+  flex-direction: column;
+}
+
+.left-column h4, .right-column h4 {
+  margin-top: 0;
+}
+
+.left-column ul, .right-column ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.left-column ul li, .right-column ul li {
+  margin-bottom: 5px;
+}
+
+.knowledge-consulted {
+  align-self: start; /* Aligns the "Knowledge Consulted" section to the start of the row */
+  margin-top: 0; /* Ensure no extra margin at the top */
+}
+
+.full-width-form {
+  width: 100%;
+  margin-bottom: 20px; /* Add some space between sections */
+}
+
+.full-width-form label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.full-width-form input, .full-width-form select, .full-width-form textarea {
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+  margin-top: 5px;
+}
+
+.full-width-form textarea {
+  height: 100px;
+}
+
+.form-buttons {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.left-column {
+  background-color: #f0f0f0; /* Very light grey */
+}
+
+.right-column {
+  background-color: #e0f7fa; /* Very light blue */
+}
+
+.chunk-heading {
+  background-color: yellow;
+}
+
+.knowledge-consulted li:nth-child(odd) {
+  background-color: #ffebcd; /* Blanched Almond */
+}
+
+.knowledge-consulted li:nth-child(even) {
+  background-color: #ffe4e1; /* Misty Rose */
+}
